@@ -1,0 +1,159 @@
+::before ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#click-here {
+    background-color: rgb(11, 147, 238);
+    border: none;
+    outline: unset;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    color: #ccffff;
+
+}
+
+#more-teachers {
+    background-color: rgb(221, 173, 17);
+    border: none;
+    width: 130px;
+    height: 50px;
+    outline: unset;
+    border-radius: 5px;
+    color: #ccffff;
+}
+
+
+
+/* Dropdwon */
+.dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+  }
+
+
+
+
+/* Time Table */
+  /* body {
+    background-color: #ffffff;
+    mix-blend-mode: darken;
+} */
+ 
+header h1 {
+    margin-top: 10%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+ 
+table {
+    margin-top: 2%;
+    width: max-content;
+    border: 1px solid black;
+    height: 300px;
+    margin-left: 23%;
+}
+ 
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+ 
+#blank {
+    color: #000;
+    background-color: #fff;
+}
+ 
+#s {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+ 
+#seminar {
+    font-weight: 800;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+ 
+#sub {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+ 
+#sub1 {
+    background-color: #fff;
+}
+ 
+#sub2 {
+    color: black;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+ 
+#sub3 {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+ 
+#box1 {
+    color: cornflowerblue;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+ 
+#box2 {
+    color: darkorange;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+ 
+#box3 {
+    color: darkviolet;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+ 
+#box4 {
+    color: green;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+ 
+#box5 {
+    color: red;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+ 
+#box6 {
+    color: hotpink;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+ 
+#box7 {
+    color: blue;
+    font-family: sans-serif;
+    font-weight: 800;
+}
